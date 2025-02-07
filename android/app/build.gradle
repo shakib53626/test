@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "com.example.myapp"  // এটা আর ব্যবহার করতে হবে না, namespace ব্যবহার করুন
