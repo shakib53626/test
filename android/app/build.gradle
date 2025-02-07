@@ -4,19 +4,20 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.example.app"
+        applicationId "com.example.myapp"  // এটা আর ব্যবহার করতে হবে না, namespace ব্যবহার করুন
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
+        
+        // namespace কনফিগার করুন
+        namespace 'com.example.myapp'
     }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
     }
-
-    // অন্যান্য কনফিগারেশন যেমন buildTypes ইত্যাদি এখানে থাকতে পারে
 }
 
 dependencies {
